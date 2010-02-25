@@ -1,0 +1,1058 @@
+/*  
+Theme Name: Stripey
+Theme URI: 
+Description: 
+Version: 1.6
+Author: 
+Author URI: 
+
+
+*/
+
+
+
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style:none;
+}
+a{
+	color:#7f7f7f;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+a img{
+	border:0;
+}
+.clear{
+	clear:both;
+}
+html{
+	background:#edf9fe url(images/bgr_html.gif) repeat-x;
+	/* border-bottom:5px solid #ffffff; */
+	background-color: #7ED5F7;
+}
+body{
+	margin:0px;
+	padding:0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	/*background:url(images/bgr_main.gif) no-repeat center top;*/
+	/*color:#7f7f7f;*/
+}
+
+#page{
+	width:700px;
+	margin:0px auto;
+}
+
+/* HEADER */
+
+#header{
+	width:100%;
+	height:80px;
+}
+
+#header_title{
+	float:left;
+}
+
+#header_rss{
+	float:right;
+	display: none; /* XXX */
+}
+
+#header_title h1{
+	color:#fff;
+	font-size:48px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding:0;
+	letter-spacing:-5px;
+	font-style:italic;
+	margin-left: 150px;
+}
+
+#header_title h1 a{
+		background: url('images/phone-idol.png') top left no-repeat;
+	display: block;
+	height: 80px;
+	width: 500px;
+	text-indent: -9999px;
+}
+#header_title h1 a:hover{
+	text-decoration:none;
+}
+
+.description{
+	font-size:14px;
+	position:relative;
+	top:-5px;
+	color:#bfbfbf;
+	display:block;
+	text-align:center;
+	letter-spacing:0;
+	font-weight:normal;
+}
+
+#header_rss a img{
+	position:relative;
+	top:110px;
+	display:block;
+	z-index:100;
+}
+/*menu*/
+#menu{
+	width:100%;
+	overflow:hidden;
+	height:32px;
+	background:url(images/bgr_menu.gif) repeat-x;
+}
+#menu ul{
+	padding:8px 0 0 8px;
+}
+#menu li{
+	display:inline;
+	padding:0 8px 0 8px;
+	color:#cdcdcd;
+	font-size:13px;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-transform:uppercase;
+}
+#menu li a{
+	color:#cdcdcd;
+}
+/* BODY */
+
+#body{
+	width:100%;
+	background:#fff url(images/body_bg.gif) repeat-x;
+}
+#body_top{
+	width:100%;
+	overflow:hidden;
+	padding-bottom:60px;
+	background:url(images/bgr_body_top.gif) no-repeat left bottom;
+}
+#intro {
+  background: #ffffcc;
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+  color: #000;
+}
+
+#body_left{
+	width:670px;
+	float:left;
+}
+
+#body_right{
+	width:267px;
+	float:right;
+	display: none;
+}
+
+/* left contact */
+
+#body_left_content{
+	width:615px;
+	padding:25px 0 0 30px;
+}
+
+.post{
+	width:100%;
+	margin:0 0 40px 0;
+	position: relative;
+}
+
+.post-top{
+	width:100%;
+	overflow:hidden;
+}
+
+.post-title{
+	width:520px;
+	padding:0 20px 5px 0;
+	float:left;
+}
+
+.post h2{
+	font-size:27px;
+	color:#000;
+	font-weight:normal;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding:0 0 5px 0;
+	/*background:url(images/bgr_post_title.gif) no-repeat left bottom;*/
+	margin:0 0 5px 0;
+	float: left;
+}
+
+.post .meta {
+  clear: both;
+}
+
+.post h2 a{
+	color:#000;
+}
+.post-title h4 {
+	width:61px;
+	height:60px;
+	padding:9px 0 0 0;
+	color:#fff;
+	text-align:center;
+	font-size:30px;
+	font-weight:normal;
+	float:left;
+	background:url(images/bgr_post_comment.png) no-repeat;
+	margin:0 0 5px 0;
+}
+
+.post-top h3{
+	font-weight:normal;
+	color:#817565;
+	font-size:11px;
+	padding:0 0 8px 0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.post-top h3 a, .post-top h3 span{
+	color:#f26522;
+	font-weight:bold;
+	text-transform:capitalize;
+}
+
+.entry{
+	line-height:20px;
+	font-size:13px;
+}
+
+.entry p{
+	padding-bottom:15px;
+}
+
+.entry p a{
+	text-decoration:underline;
+}
+
+.entry p a:hover{
+	text-decoration:none;
+}
+.postmetadata{
+	background:#f0f0f0 url(images/bgr_postmetadata.gif) repeat;
+	width:100%;
+	height:38px;
+	overflow:hidden;
+}
+.postmetadata a{
+	color:#f26522;
+	font-weight:bold;
+	text-decoration:underline;
+	font-size:12px;
+}
+.postmetadata a:hover{
+	text-decoration:none;
+}
+.postmetadata .alignright{
+	padding:12px 20px 0 0;
+}
+
+.post-page{
+	width:100%;
+}
+
+h2.page_title{
+	font-size:27px;
+	color:#000;
+	font-weight:normal;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding:0 0 5px 0;
+	background:url(images/bgr_post_title.gif) no-repeat left bottom;
+	margin:0 0 15px 0;
+}
+
+.post-page .entry{
+}
+
+.post-page .entry a{
+	text-decoration:underline;
+}
+
+.post-page .entry a:hover{
+	text-decoration:none;
+}
+
+.entry strong{
+}
+
+.post-page .entry h1, .post-page .entry h2, .post-page .entry h3, .post-page .entry h4, .post-page .entry h5, .post-page .entry h6{
+	color:#000;
+  display: block;
+	font-weight:normal;
+}
+
+.post-page .entry strong{
+	/*font-size:28px;*/
+	font-weight: bold;
+}
+
+.post .sociable {
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+
+.post-page .entry h1{
+	font-size:26px;
+	padding:0 0 14px 0;
+}
+
+.post-page .entry h2{
+	font-size:24px;
+	padding:0 0 14px 0;
+}
+
+.post-page .entry h3{
+	font-size:22px;
+	padding:0 0 12px 0;
+}
+
+.post-page .entry h4{
+	font-size:20px;
+	padding:0 0 10px 0;
+}
+
+.post-page .entry h5{
+	font-size:18px;
+	padding:0 0 8px 0;
+}
+
+.post-page .entry h6{
+	font-size:16px;
+	padding:0 0 6px 0;
+} 
+
+/* specific to phone idol */
+
+.audioplayer_container {
+  position: absolute;
+  top: 5px;
+  left: 80px;
+}
+
+.ratingblock {
+  float: right;
+}
+.ratingtext { display: none; }
+
+.thumblock {
+  float: right;
+}
+.gdt-thumbtext {display: none;}
+
+/* right content */
+
+#body_right_content{
+	margin:15px 0 0 0;
+	width:100%;
+}
+
+#main_search{
+	width:256px;
+	height:49px;
+	background:url(images/bgr_main_search.gif) no-repeat;
+	overflow:hidden;
+	margin:0 0 10px 0;
+}
+
+#searchform_top{
+	padding:12px 0 5px 10px;
+	float:left;
+}
+
+#searchform_top_text{
+	width:210px;
+	border:0px;
+	background:none;
+	color:#60757d;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;
+	margin:5px 4px 0 0;
+}
+
+#gosearch{
+	float:left;
+}
+/* ADS */
+
+/* Styles for one-column display */
+#wp125adwrap_1c { width:100%; overflow:hidden; }
+#wp125adwrap_1c .wp125ad { margin-bottom:5px; }
+
+/* Styles for two-column display */
+#wp125adwrap_2c { width:100%; overflow:hidden; }
+#wp125adwrap_2c .wp125ad { width:125px; float:left; padding:0 7px 7px 0; }
+#wp125adwrap_2c .wp125ad img { width:125px; float:left; }
+
+/* SIDE BAR */
+
+#sidebar{
+	width:256px;
+}
+
+.sidebars h2{
+	font-size:22px;
+	color:#303030;
+	text-transform:capitalize;
+	font-weight:normal;
+	padding:10px 0 10px 25px;
+	background:url(images/bgr_sidebars_h2.gif) no-repeat left 12px;
+}
+
+.sidebars ul{
+	color:#4c4c4c;
+}
+
+.sidebars ul li{
+	margin:0 0 15px 0;
+	padding:4px 13px 0 13px;
+	background:url(images/bgr_sidebars_li.gif) repeat-x;
+}
+
+.sidebars ul li ul li{
+	margin-bottom:0;
+	width:auto;
+	background:none;
+}
+
+.sidebars ul li ul li ul li{
+	margin-left:0;
+}
+
+.sidebars li ul{
+}
+
+.sidebars li ul li ul{
+	padding-bottom:0px;
+	padding-left:10px;
+	background:none;
+	width:auto;
+}
+
+.sidebars li ul li ul li ul{
+}
+
+.sidebars li{
+	margin-bottom:0px;
+	background:none;
+}
+
+.sidebars li li{
+	margin-bottom:0px;
+	border-bottom:1px solid #e8e8e8;
+	padding:7px 0 7px 5px;
+	font-size:13px;
+}
+
+.sidebars li li li{
+	background:none;
+	border:0;
+	padding-bottom:3px;
+}
+
+.sidebars li a{
+	color:#4c4c4c;
+}
+
+.sidebars li.widget_categories ul li{
+	font-weight:bold;
+	color:#4c4c4c;
+}
+
+.sidebars li.widget_categories ul li a{
+	font-weight:normal;
+	background:url(images/li_cat.gif) no-repeat left 4px;
+	padding:0 0 0 10px;
+}
+
+.sidebars li.widget_archives ul li a{
+	font-weight:normal;
+	background:url(images/li_ar.gif) no-repeat left 4px;
+	padding:0 0 0 12px;
+}
+
+.sidebars li.linkcat ul li a{
+	background:url(images/li_links.gif) no-repeat left 4px;
+	padding:0 0 0 15px;
+	font-weight:bold;
+}
+
+.sidebars li.widget_meta ul li a{
+	font-weight:normal;
+	padding-left:2px;
+	background:url(images/li_pagenav.gif) no-repeat left 6px;
+	padding:0 0 0 14px;
+}
+
+.sidebars .widget_tags p{
+	padding:0px 10px 10px 15px;
+}
+
+.sidebars .widget_tags a{
+	color:#4c4c4c;
+}
+
+.sidebars .textwidget{
+	padding:10px;
+}
+
+/* FOOTER */
+
+#footer{
+	width:100%;
+	background:url(images/bgr_footer.png) no-repeat;
+	padding:20px 0 50px 0;
+}
+
+#footer_text{
+	text-align:center;
+	position:relative;
+}
+
+#footer_text p{
+	line-height:18px;
+	font-size:11px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#000;
+}
+
+#footer_text a{
+	color:#f26522;
+}
+
+#footer_text b a{
+	color:#0072bc;
+}
+
+
+
+
+/* Begin Typography & Colors */
+
+#wp-calendar #prev a, #wp-calendar #next a {
+	font-size: 9pt;
+	}
+
+#wp-calendar a {
+	text-decoration: none;
+	}
+
+#wp-calendar caption {
+	font: bold 1.3em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	text-align: center;
+	}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	}
+/* End Typography & Colors */
+
+
+
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left
+	}
+/* End Images */
+
+
+
+/* Begin Calendar */
+#wp-calendar {
+	empty-cells: show;
+	margin: 10px auto 0;
+	width: 98%;
+	}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+	}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar a {
+	display: block;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	width: 100%;
+	}
+
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #fff; }
+/* End Calendar */
+
+
+
+/* Begin Various Tags & Classes */
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+blockquote {
+	margin: 15px 30px 10px 10px;
+	padding-left: 24px;
+	padding-bottom:7px;
+	background:url(images/blockquote_bg.gif) repeat-y;
+	}
+
+blockquote blockquote{
+	background:url(images/blockquote_bg2.gif) repeat-y;
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+
+.center {
+	text-align: center;
+	}
+
+hr {
+	display: none;
+	}
+
+a img {
+	border: none;
+	}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin:10px 0 10px 0;
+	width:613px;
+	/*background:#dbf3fd;
+	border:1px solid #c7dde5;*/
+	padding:4px 0 4px 0;
+	overflow:hidden;
+	color:#000;
+	}
+
+.navigation a{
+	color:#000;
+	font-size:13px;
+	}
+
+.wp-pagenavi{
+	line-height:1.8em;
+	padding:0 15px 0 15px;
+	font-weight: bold;
+	font-size:13px;
+	text-align:right;
+}
+
+.wp-pagenavi a {
+	padding: 4px 8px 4px 8px; 
+	margin: 2px;
+	color:#000;
+}
+.wp-pagenavi span.pages {
+	padding: 4px 8px 4px 8px; 
+	margin: 2px;
+	background:#f1fafe;
+	border:1px solid #c1cbcf;
+}
+.wp-pagenavi span.current {
+	padding: 4px 8px 4px 8px; 
+	margin: 2px;
+	background:#f1fafe;
+	border:1px solid #c1cbcf;
+}
+.wp-pagenavi span.extend {
+	padding: 4px 8px 4px 8px; 
+	margin: 2px;
+	background:#f1fafe;
+	border:1px solid #c1cbcf;
+}
+/* End Various Tags & Classes*/
+
+/* Begin Lists
+
+	Special stylized non-IE bullets
+	Do not work in Internet Explorer, which merely default to normal bullets. */
+
+.entry ul {
+	margin: 0 10px 25px 30px;
+	list-style: none;
+	padding:15px 15px 15px 20px;
+	background:#ecf9fe;
+	border:1px solid #c5e3ee;
+	} 
+
+.entry ul li {
+	border-bottom:1px solid #c5e3ee;
+	background:url(images/entry_before.gif) no-repeat left 12px;
+	padding:6px 0 6px 11px;
+	color:#625f5e;
+	display:block;
+	}
+
+.entry ul li:before{
+	/*content: url(images/entry_before.gif);*/
+	}
+
+.entry ol {
+	margin: 0 10px 25px 30px;
+	padding:15px 15px 15px 40px;
+	background:#ecf9fe;
+	border:1px solid #c5e3ee;
+	}
+
+.entry ol li {
+	margin: 0;
+	padding:6px 0 6px 0;
+	border-bottom:1px solid #c5e3ee;
+	color:#625f5e;
+	}
+
+.postmetadata ul, .postmetadata li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: none;
+	}
+	
+ol li{
+	list-style: decimal outside;
+	}
+/* End Entry Lists */
+
+
+
+/* Begin Form Elements */
+#searchform {
+	margin: 10px auto;
+	padding: 5px 3px; 
+	text-align: center;
+	}
+
+#sidebar #searchform #s {
+	width: 108px;
+	padding: 2px;
+	}
+
+#sidebar #searchsubmit {
+	padding: 1px;
+	}
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+
+#commentform{
+	width:400px;
+}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform textarea {
+	width: 350px;
+	padding: 2px;
+	}
+
+#commentform #submit {
+	margin: 0;
+	width:65px;
+	height:25px;
+	}
+/* End Form Elements */
+
+
+
+/* Begin Comments*/
+
+h2#comments{
+	font-size:27px;
+	color:#000;
+	font-weight:normal;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding:0 0 5px 0;
+	background:url(images/bgr_post_title.gif) no-repeat left bottom;
+	margin:0 0 10px 25px;
+}
+
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	margin:0 0 0 25px;
+	}
+
+.commentlist .comment {
+	margin: 15px 0 0 0;
+	padding: 10px 15px 20px 15px;
+	list-style: none;
+	background:#f5f5f5;
+	border:1px solid #dfdfdf;
+	}
+
+.commentlist .alt {
+	background:#fff;
+	}
+
+.commentlist .comment .comment {
+	margin: 15px 15px 15px 15px;
+	padding: 10px 15px 20px 15px;
+	width:auto;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	line-height:18px;
+	}
+.commentmet_data{
+	width:100%;
+	overflow:hidden;
+}
+.commentmet_data td{
+	vertical-align:top;
+	text-align:left;
+}
+.commentmet_avatar{
+	width:102px;
+	padding:15px 0 0 0;
+}
+.commentmet_text{
+}
+.commentmet_avatar img{
+	border:2px solid #909090;
+}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.commentmet_replay{
+	width:100%;
+	overflow:hidden;
+}
+.commentmet_replay a{
+	float:right;
+	display:block;
+	color:#aaaaaa;
+	font-weight:bold;
+	background:#000;
+	padding:3px 20px 3px 20px;
+}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	padding:0 0 5px 0;
+	color:#000;
+	font-size:17px;
+	font-family:Verdana, Geneva, sans-serif;
+	text-transform:capitalize;
+	}
+.commentmetadata a{
+	color:#0071bc;
+}
+.commentmetadata span{
+	color:#636363;
+	font-size:11px;
+}
+.commentmetadata span.commentmetadata_title{
+	color:#0071bc;
+	font-size:17px;
+}
+.commentmetadata a{
+	color:#0071bc;
+	}
+
+.commentmet_text{
+	font-size:12px;
+}
+
+#respond{
+	margin:40px 15px 0 30px;
+	padding-bottom:60px;
+}
+
+h3#respond_title{
+	font-size:27px;
+	color:#000;
+	font-weight:normal;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding:0 0 5px 0;
+	background:url(images/bgr_post_title.gif) no-repeat left bottom;
+	margin:0 0 20px 0;
+}
+
+#commentform{
+	margin-left:55px;
+	color:#000000;
+	font-size:12px;
+	width:80%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#commentform small{
+	position:relative;
+	top:-1px;
+	font-size:12px;
+}
+
+#commentform a{
+	color:#000000;
+}
+
+#commentform input{
+	background:#f8fdff;
+	border:3px #c9d9e0 solid;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding:3px;
+	color:#000000;
+}
+
+#commentform textarea{
+	background:#f8fdff;
+	border:3px #c9d9e0 solid;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding:3px;
+	margin:5px 0 0 0;
+	color:#000000;
+}
+
+#commentform input#submit{
+	background:none;
+	border:0px;
+}
+
+/* End Comments */
+
+/* Archives page */
+.page_archives_div{
+	padding-bottom:60px;
+}
+
+.ar_panel{
+}
+
+.ar_panel3{
+}
+
+.page_archives_div h2{
+	font-size:27px;
+	color:#000;
+	font-weight:normal;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding:0 0 5px 0;
+	background:url(images/bgr_post_title.gif) no-repeat left bottom;
+	margin:0 0 15px 0;
+}
+
+.page_archives_div ul h2{
+}
+
+.page_archives_div ul{
+	margin:10px 0 40px 0;
+	padding:0px;
+}
+
+.page_archives_div ul li{
+	margin:0px;
+	padding:7px 0 8px 5px;
+	list-style:none;
+	background:url(images/bgr_post_title.gif) no-repeat left bottom;
+}
+
+.page_archives_div ul li ul li{
+	border:0px;
+	background:none;
+}
+
+.page_archives_div ul li ul{
+	margin:0px;
+	padding:0px;
+	padding-left:10px;
+}
+
+.page_archives_div ul li a{
+	font-weight:normal;
+	color:#000;
+	font-size:13px;
+	background:url(images/entry_before.gif) no-repeat left 4px;
+	padding:0 0 0 11px;
+}

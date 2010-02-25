@@ -1,0 +1,15 @@
+Phone Idol is an experiment in using the http://twilio.com API for something fun.  You can see it in action at http://phone-idol.com
+
+There are two basic pieces:
+
+phoneidol-plugin is a WordPress plugin that talks to Twilio via TwiML, and posts phoned-in content to the DB as WordPress posts.
+
+phoneidol-theme is an adaptation of the Stripey theme http://wordpressthemesbase.com/detail/986.html that is tailored for this purpose.
+
+Not included are several other plugins that are in use at http://phone-idol.com:
+
+ * GD Star Rating: http://www.gdstarrating.com/
+ * Audio Player: http://wpaudioplayer.com/
+ * Sociable: http://blogplay.com/plugin
+ 
+Enjoy!

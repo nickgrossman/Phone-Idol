@@ -3,7 +3,7 @@
   # This file will be called directly from twilio. 
   # so we need to include wp-config directly.
   #
-  require('../../../wp-config.php');
+  require('../../wp-config.php');
 	header("content-type: text/xml");
 	echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 ?>

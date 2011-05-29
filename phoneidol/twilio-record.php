@@ -3,7 +3,7 @@
   # This file will be called directly from twilio. 
   # so we need to include wp-config directly.
   #
-  require('../../../wp-config.php');
+  require('../../wp-config.php');
 	header("content-type: text/xml");
 	echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 ?>
@@ -27,7 +27,7 @@ elseif($_REQUEST['Digits'] == 1):
 ?>
 
 	<Say voice="woman">You get 30 seconds to sing.  Press the pound key when you're finished. Ready, set, go!</Say>
-	<Record maxLength="35" finishOnKey="#" action="<?php bloginfo('siteurl'); ?>/wp-content/plugins/phoneidol/twilio-save.php"></Record>
+	<Record maxLength="35" finishOnKey="#" action="<?php bloginfo('template_directory'); ?>/twilio-save.php"></Record>
 	
 
 <?php 

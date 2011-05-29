@@ -23,7 +23,7 @@
 	<h2 id="comments">Comments posted <?php comments_number('(0)', '(1)', '(%)' );?></h2>
     
     <div class="commentlist">
-	<?php wp_list_comments2(); ?>
+	<?php wp_list_comments(); ?>
 	</div>
 
  <?php else : // this is displayed if there are no comments so far ?>
